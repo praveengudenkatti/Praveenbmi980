@@ -1,0 +1,287 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>HSYT eSports â€“ Official App</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+
+        body {
+
+            margin: 0;
+
+            padding: 0;
+
+            background: #000000;
+
+            font-family: 'Rajdhani', sans-serif; /* Changed font to Rajdhani */
+
+            color: white;
+
+            text-align: center;
+
+        }
+
+        /* ðŸ”¥ LOGO UPâ€“DOWN ANIMATION */
+
+        @keyframes floatLogo {
+
+            0% { transform: translateY(0); }
+
+            50% { transform: translateY(-18px); }
+
+            100% { transform: translateY(0); }
+
+        }
+
+        .logo-box {
+
+            margin-top: 40px;
+
+            animation: floatLogo 3s ease-in-out infinite;
+
+        }
+
+        .logo-box img {
+
+            width: 70%;
+
+            border-radius: 20px;
+
+            box-shadow: 0 0 40px #ff005d;
+
+            /* New logo link from your request */
+
+            content: url("https://i.ibb.co/Rk9RDyn4/6437dfaeb079.jpg");
+
+        }
+
+        h1 {
+
+            font-size: 38px;
+
+            font-weight: 700;
+
+            color: #ff005d;
+
+            margin-top: 25px;
+
+            padding: 0 12px;
+
+        }
+
+        .sub {
+
+            font-size: 20px;
+
+            margin-top: 10px;
+
+        }
+
+        /* ----------------------------------------------------- */
+
+        /* ðŸ”¥ NEW DOWNLOAD BUTTON STYLE from your second file */
+
+        /* ----------------------------------------------------- */
+
+        @keyframes pulseBtnNew {
+
+            0% { box-shadow:0 0 20px rgba(220,20,60,0.6);}
+
+            50% { box-shadow:0 0 30px rgba(220,20,60,0.9);}
+
+            100% { box-shadow:0 0 20px rgba(220,20,60,0.6);}
+
+        }
+
+        @keyframes gradientShiftNew {
+
+            0%{background-position:0% 50%;}
+
+            50%{background-position:100% 50%;}
+
+            100%{background-position:0% 50%;}
+
+        }
+
+        .download-btn {
+
+            display: inline-flex; 
+
+            align-items:center; 
+
+            gap:15px;
+
+            background: linear-gradient(135deg, #dc143c, #a01030, #dc143c);
+
+            background-size: 200% 200%; 
+
+            color:white; 
+
+            font-size: 24px; /* Increased font size */
+
+            font-weight:700; 
+
+            padding:18px 40px; 
+
+            border-radius:50px;
+
+            text-decoration:none; 
+
+            box-shadow:0 0 25px rgba(220,20,60,0.7);
+
+            transition: all 0.3s ease; 
+
+            position: relative; 
+
+            overflow:hidden; 
+
+            z-index:2;
+
+            margin-top: 25px; /* Maintain original margin */
+
+            animation: gradientShiftNew 3s ease infinite, pulseBtnNew 2s infinite;
+
+        }
+
+        .download-btn:hover { 
+
+            transform: translateY(-5px); 
+
+            box-shadow:0 0 35px rgba(220,20,60,0.9);
+
+        }
+
+        .download-btn:active { 
+
+            transform: translateY(1px); 
+
+        }
+
+        .download-btn::before {
+
+            content: ''; 
+
+            position: absolute; 
+
+            top:0; 
+
+            left:-100%; 
+
+            width:100%; 
+
+            height:100%;
+
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+
+            transition:0.5s;
+
+            z-index: -1;
+
+        }
+
+        .download-btn:hover::before { 
+
+            left:100%; 
+
+        }
+
+        .download-icon { 
+
+            font-size: 1.6em; /* Adjust icon size relative to font */
+
+            margin-right: -10px; /* Adjust spacing if needed */
+
+        }
+
+        
+
+        /* ----------------------------------------------------- */
+
+        /* Old download button styles (removed) */
+
+        /* ----------------------------------------------------- */
+
+        
+
+        .whatsapp-link {
+
+            margin-top: 20px;
+
+            font-size: 20px;
+
+            color: #ff4fb8;
+
+            font-weight: bold;
+
+        }
+
+        .whatsapp-link a {
+
+            color: #ff4fb8;
+
+            text-decoration: none;
+
+        }
+
+        .footer {
+
+            margin-top: 50px;
+
+            font-size: 15px;
+
+            opacity: 0.6;
+
+            margin-bottom: 40px;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="logo-box">
+
+        <img src="https://i.ibb.co/Rk9RDyn4/6437dfaeb079.jpg">
+
+    </div>
+
+    <h1>HSYT eSports - Official Tournament App</h1>
+
+    <p class="sub">Join the HSYT--ESPORTS Experience âš¡</p>
+
+    
+
+    <a class="download-btn" href="https://www.mediafire.com/file/9fhr59g979df3qs/HSYT-ESPORTS_X_PRO.apk/file">
+
+        <i class="fas fa-download download-icon"></i>
+
+        Download 9.0 PRO
+
+    </a>
+
+    <p class="whatsapp-link">
+
+        ðŸ‘‰ <a href="https://wa.link/ejz6kh">Join Our WhatsApp Channel</a>
+
+    </p>
+
+    <p class="footer">Â© 2025 HSYT eSports | All Rights Reserved</p>
+
+</body>
+
+</html>
+
